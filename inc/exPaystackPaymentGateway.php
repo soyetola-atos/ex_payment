@@ -11,8 +11,8 @@ class exPaystackPaymentGateway extends Model1 implements Model1ActionInterface {
      * PayStack Config
      */
     public static $config = [
-      'secret_key'=> 'sk_test_55405839cad3cd19aa8f8044f355bf9b2ebb594b',
-      'public_key'=> 'pk_test_eaf9caad0d98efd40d644dd6bac14447ec3b69f4',
+      'secret_key'=> '',
+      'public_key'=> '',
       'currency'=>'NGN',
       'cookie_key'=>'last_payment_'.self::class,
     ];
